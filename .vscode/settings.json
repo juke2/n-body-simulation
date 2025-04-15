@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "osmesa.h": "c",
+        "glut.h": "c",
+        "math.h": "c",
+        "stdlib.h": "c",
+        "nbody.h": "c",
+        "n_body_renderer.h": "c",
+        "draw_simulation_opengl.h": "c"
+    },
+    "nixEnvSelector.nixFile": "${workspaceFolder}/shell.nix"
+}
