@@ -68,8 +68,7 @@ int map_sim_to_draw(){
 void timer_live_display(int v) {
 
     simulate_tick(simulation_info.num_points, simulation_info.data, 86400, NULL /*protected against null pointer, so this just prevents output*/,0);
-    map_sim_to_draw();
-    // printf("timer go!");
+    map_sim_to_draw(); // maps between the data formats used by the renderer and the simulation
     glutPostRedisplay();
 
     glutTimerFunc(1000/10, timer_live_display, v);

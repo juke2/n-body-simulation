@@ -95,7 +95,6 @@ void display() {
         glColor3f(dat[ind + red],dat[ind + green],dat[ind + blue]);
         glTranslatef(dat[ind + xpos],dat[ind + ypos],dat[ind + zpos]);
         glutSolidSphere(dat[ind + radius], 30, 30);
-        // printf("%lf,%lf,%lf,%lf,%lf,%lf,%lf\n",dat[ind + xpos],dat[ind + ypos],dat[ind + zpos],dat[ind + red],dat[ind + green],dat[ind + blue],dat[ind + radius]);
         glPopMatrix();
     }
 
